@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,26 +15,45 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Home</title>
 </head>
+
 <body>
     <!-- Header start -->
     <header class="header">
         <a href="home.html" class="logo"><i class="fas fa-store"></i>Shopie</a>
-    <form action="" class="search-form">
-        <input type="search" id="search-box" placeholder="Search here...">
-        <label for="search-box" class="fas fa-search"></label>
-    </form>
-    <div class="icons">
-        <div id="menu-btn" class="fas fa-bars"></div>
-        <div id="search-btn" class="fas fa-search"></div>
-        <a href="login.html" class="fas fa-user"></a>
-        <a href="#" class="fas fa-heart"></a>
-        <a href="cart.html" class="fas fa-shopping-cart"></a>
-    </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="Search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="login.html" class="fas fa-user"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="cart.html" class="fas fa-shopping-cart"></a>
+        </div>
     </header>
     <!-- Header end -->
 
-    <!-- Side bar section start -->
-    
-    <!-- Side bar section end -->
+    <!-- Side-bar section start -->
+    <div class="side-bar">
+        <div id="close-side-bar" class="fas fa-times"></div>
+        <div class="user">
+            <img src="img/user-img.png" alt="user-img">
+            <h3>Mark Rich</h3>
+            <a href="#">Log Out</a>
+        </div>
+        <nav class="navbar">
+            <a href="home.html"> <i class="fas fa-angle-right"></i>Home</a>
+            <a href="about.html"> <i class="fas fa-angle-right"></i>About</a>
+            <a href="products.html"> <i class="fas fa-angle-right"></i>Products</a>
+            <a href="contact.html"> <i class="fas fa-angle-right"></i>Contact</a>
+            <a href="login.html"> <i class="fas fa-angle-right"></i>Login</a>
+            <a href="register.html"> <i class="fas fa-angle-right"></i>Register</a>
+            <a href="cart.html"> <i class="fas fa-angle-right"></i>Cart</a>
+        </nav>
+    </div>
+    <!-- Side-bar section end -->
+    <script src="js/script.js"></script>
 </body>
+
 </html>
